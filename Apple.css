@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.containers {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: fantasy;
+  background-color: #333;
+  color: whitesmoke;
+  padding: 20px;
+}
+nav.sticky {
+  position:sticky;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 10px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background-color: #555;
+
+}
+nav ul li a:hover {
+  color: #fff;
+ 
+}
+.body{
+  background-color:bisque;
+  
+}
+.heading{
+  font-family: cursive;
+  text-align: center;
+  position: relative;
+}
+.accordion {
+  background-color:bisque;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: beige;
+}
+
+
+.panel {
+  padding: 0 18px;
+  background-color: rgb(251, 232, 209);
+  display: none;
+  overflow: hidden;
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+  position: relative;
+  left: 0;
+bottom: 0;
+width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.social-links a {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.blurry-img {
+  filter: blur(9px); /* Initial blur amount */
+  transition: filter 0.3s ease;
+}
+.blurry-img.clicked {
+  filter: none; /* Remove blur on click */
+}

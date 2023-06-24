@@ -1,0 +1,35 @@
+index:
+    - make file @done
+    - make nav bar @done
+    - make index cleaner @done
+    - make the color scheme flow @done
+    
+Xcode:
+    -  make file @done
+    - set up nav bar @done
+    - and walkthroughs @done
+    - fill with pictures @done
+    - add background colors @done
+     - Add the following information
+         - what langues work @done
+         - how does Xcode work with Swift
+         - do a walkthrough on how to Set up a hello world project
+         - show some examples 
+         - Record a video walkthrough?
+
+Swift:
+    - make file @done
+    - set up nav bar @done
+    - add text for walkthrough @done
+    - add pictures @done
+    - add background colors @done
+    -  Add following
+        - what langues work with swift @done
+         
+Apple:
+    - make file @done
+    - make nav bar @done
+    - add walkthroughs @done
+    - add pictures @done
+    - add background colors @done
+
